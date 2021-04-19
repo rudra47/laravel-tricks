@@ -1,2 +1,3 @@
 # laravel-tricks
-Here I'm going to push laravel related tricks and so on 
+## 1. One click Login
+If you are a developer then you must have to login so many time on your system. This tricks can help you.
