@@ -3,7 +3,7 @@
 Route::get('provider-dev-login', array('as'=>'providerDevLogin', 'uses'=>'MasterController@providerDevLogin'));
 ```
 
-## Controller: 
+## Controller:  
 ```
 public function providerDevLogin()
 {
