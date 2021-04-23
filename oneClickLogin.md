@@ -1,8 +1,10 @@
-route: 
+## route: 
+```
 Route::get('provider-dev-login', array('as'=>'providerDevLogin', 'uses'=>'MasterController@providerDevLogin'));
+```
 
-
-Controller: 
+## Controller: 
+```
 public function providerDevLogin()
 {
     //Check local environment or not
@@ -19,9 +21,10 @@ public function providerDevLogin()
 
     return redirect()->route('provider.apps');
 }
+```
 
-
-Blade: (put it to the login page)
+## Blade: (put it to the login page)
+```
 @if (app()->environment('local'))
                             
 <div class="form-group mb0 text-center">
@@ -32,3 +35,4 @@ Blade: (put it to the login page)
 </div>
 
 @endif
+```
